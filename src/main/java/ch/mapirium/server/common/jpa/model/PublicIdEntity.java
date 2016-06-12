@@ -4,7 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 /**
- * Eine Basisklasse für alle Entitäten mit öffentlichem Schlüssel
+ * Eine Basisklasse für alle Entitäten mit öffentlichem Schlüssel.
  */
 @MappedSuperclass
     public abstract class PublicIdEntity extends CreateTimeTrackEntity {
