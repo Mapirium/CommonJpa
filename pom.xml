@@ -34,4 +34,22 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <scm>
+        <connection>scm:git:ssh://github.com:Mapirium/CommonJpa.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Mapirium/CommonJpa.git</developerConnection>
+        <url>scm:git:ssh://github.com:Mapirium/CommonJpa.git</url>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>hosted.heaas.releases</id>
+            <url>http://repo.surech.ch/content/repositories/hosted.mapirium.releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>hosted.heaas.snapshots</id>
+            <url>http://repo.surech.ch/content/repositories/hosted.mapirium.snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
